@@ -14,7 +14,7 @@ This will generate training data for our MGpi Network
 3. Run ```python simlulate.py```. This imports GroupInteract from sim\_interact.py or sim\_interact\_dyn.py, and simulates group communications.
 
 ## Training policy
-1. After you have simulations, chane appropriate variables in train.py and run ```nohup python train.py simulations\_directory model\_name number\_of\_epochs```. 
+1. After you have simulations, chane appropriate variables in train.py and run ```nohup python train.py simulations_directory model_name number_of_epochs```. 
 2. model_name here can be:
 AllHist for MGpi
 All-NoSelfState for baseline NSO
@@ -26,4 +26,4 @@ All-SocPool for baseline SOCPOOL
 After changing appropriate variables in test.py, run ```nohup python test.py```
 
 ## Testing performance on group detection
-After changing appropriate variables in test\_group.py, run ```nohup python test\_group.py```
+After changing appropriate variables in test\_group.py, run ```nohup python test_group.py```
