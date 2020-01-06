@@ -16,10 +16,15 @@ This will generate training data for our MGpi Network
 ## Training policy
 1. After you have simulations, chane appropriate variables in train.py and run ```nohup python train.py simulations_directory model_name number_of_epochs```. 
 2. model_name here can be:
+
 AllHist for MGpi
+
 All-NoSelfState for baseline NSO
+
 NoNeighMod for baseline SSO
+
 All-NoKPMGate for baseline EQPOOL
+
 All-SocPool for baseline SOCPOOL
 
 ## Testing policy
